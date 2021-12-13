@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: bignoodle, Arial, Helvetica, sans-serif;
+    background-color: #6c7ae0;
+    color: aliceblue;
+}
+
+/* Font */
+@font-face {
+    font-family: bignoodle;
+    src: url(assets/font/big_noodle_titling.ttf);
+}
+
+@font-face {
+    font-family: reckoner;
+    src: url(assets/font/Reckoner.ttf);
+}
+
+/* Kotak Form */
+.container {
+    max-width: 35%;
+    height: 600px;
+    border: 2px solid #fff;
+    background-color: rgb(245, 240, 240);
+    margin: auto;
+    margin-top: 18px;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+/* Logo */
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    margin: 20px auto;
+    color: #6c7ae0;
+    font-size: 50px;
+    font-family: reckoner;
+}
+
+/* Isi Email */
+.email{
+    width: 450px;
+    height: 40px;
+    border: none;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    border-bottom: 2px solid #6c7ae0;
+    background-color: rgb(230, 230, 230);
+}
+/* Isi Password */
+.password {
+    width: 450px;
+    height: 40px;
+    border: none;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    border-bottom: 2px solid #6c7ae0;
+    background-color: rgb(230, 230, 230);
+}
+/* Lupa email & password */
+.lupaemail, .lupapassword {
+    margin-left: 15px;
+    line-height: 25px;
+    font-family: helvetica;
+    font-size: small;
+}
+p {
+    color: rgb(80, 80, 80);
+    font-family: helvetica;
+}
+p a {text-decoration: none;}
+/* Login Cepat */
+.quicklogin a,
+.quickloginfb a{
+    color: #6c7ae0; 
+    font-family: bignoodle;
+    font-size: 20px;
+}
+.quicklogin {
+    text-align: center;
+    margin: 30px 0;
+}
+.quickloginfb {text-align: center; margin-top: -10px;}
+/* Hakcipta / Copyright */
+footer {
+    position: relative;
+    height: 100px;
+    margin-top: 50px;
+}
+footer .copyright {
+    position: absolute;
+    bottom: 0;
+    margin-left: 22%;
+}
